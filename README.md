@@ -36,4 +36,4 @@ img10.png,05:00
 img10.png,05:20
 ```
 
-Note that last slide must be repeated to specify when its display ends.
+Note that the last slide must be repeated to specify when its display ends.
