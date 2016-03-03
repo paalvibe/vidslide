@@ -75,7 +75,7 @@ duration 1
 end
 
 def prepare_slides_vid()
-  # did this manually # syscmd("convert -density 150 input.pdf temp/img%02d.png")
+  syscmd("convert -density 150 input.pdf temp/img%02d.png")
   create_img_concat_file
   FileUtils.rm_f('slides.mp4')
   syscmd("ffmpeg -i in.ffconcat slides.mp4")
