@@ -18,7 +18,7 @@ end
 def prepare_face_vid()
   # Crop the video to make it slimmer. Vid was recorded with quicktime using macbook camera (quality high, not maximum)
   # By making it slimmer it fits better alongside slides.
-  syscmd('rm -f slimface.mov ; ffmpeg -i face.mov -filter:v "crop=in_w-400:in_h" -preset veryfast -c:a copy slimface.mov')
+  syscmd('rm slimface.mov ; ffmpeg -i face.mov -filter:v "crop=in_w-400:in_h" -preset veryfast -c:a copy slimface.mov')
 end
 
 def create_img_concat_file()
