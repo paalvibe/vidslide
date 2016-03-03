@@ -12,11 +12,11 @@ Slides should be in ```./input.pdf```. This script supposes slide dimensions 150
 
 Example face video recording:
 
-![Example face video recording](https://github.com/paalvibe/vidslide/docs/face_vid_example.png)
+![Example face video recording](https://github.com/paalvibe/tree/master/vidslide/docs/face_vid_example.png)
 
 Example composed output:
 
-![Example composed output](https://github.com/paalvibe/vidslide/docs/combined_vid_example.png)
+![Example composed output](https://github.com/paalvibe/vidslide/tree/master/docs/combined_vid_example.png)
 
 The page change times of the slides are defined in in.ffconcat.csv. Example:
 
