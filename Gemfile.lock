@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
+    rmagick (2.15.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fileutils
+  rmagick
+
+BUNDLED WITH
+   1.11.2
